@@ -1,17 +1,16 @@
 function setup() {
-    createCanvas(400, 400);
-    background("black");
-  }
-  
-  function draw() {
-    background(220);
-    stroke("blue");
-   FileList("red");
+  createCanvas(400, 400);
+  background("black");
+}
 
-   if(mouseIsPressed){
-    rect(mouseX, mouseY, 20, 35);
-   }
+function draw() {
+  stroke("blue");
+   fill("red");
 
+ if(mouseIsPressed){
+  rect(mouseX, mouseY, 20, 35);
+ }
 
 
-  }
+
+}
